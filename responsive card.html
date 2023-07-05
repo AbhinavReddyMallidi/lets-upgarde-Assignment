@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      width: 300px;
+      height: 300px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .card-title {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .card-image {
+      width: 100%;
+      height: 50%;
+      margin-bottom: 10px;
+    }
+
+    .card-content {
+      font-size: 14px;
+      color: #666;
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h2 class="card-title">Family</h2>
+      <img class="card-image" src="C:\Users\Abhinav\OneDrive\Desktop\abhi\image1.jpg.jpeg" alt="Image 1" width="300" height="200">
+      <p class="card-content">Family is a life jacket in the stormy sea of life.</p>
+    </div>
+    <div class="card">
+      <h2 class="card-title">Friends</h2>
+      <img class="card-image" src="https://th.bing.com/th/id/OIP.tj29FbgTNh53iqI3R5PjZgHaHC?pid=ImgDet&rs=1" alt="Image 2">
+      <p class="card-content">Friends make the good times better and hard times eaiser.</p>
+    </div>
+    <div class="card">
+      <h2 class="card-title">Life</h2>
+      <img class="card-image" src="https://th.bing.com/th/id/OIP.EL2e7fkgsvu9uO8qFv_EcQAAAA?pid=ImgDet&rs=1" alt="Image 3">
+      <p class="card-content">Life is not a problem to be solved, but a reality to be experienced.</p>
+    </div>
+    <!-- Add more cards here -->
+  </div>
+</body>
+</html>
